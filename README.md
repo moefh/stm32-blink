@@ -20,6 +20,8 @@ This will create the file `blink.bin` in the `src` directory.
 
 You'll need a [Blue Pill board](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html) and a [ST-Link programmer](https://stm32-base.org/boards/Debugger-STM32F101C8T6-STLINKV2).
 
+![Blue Pill board and ST-Link programmer](photo.jpg)
+
 The open source tool to upload programs to the board is `st-flash`. You can either
 grab a release from https://github.com/stlink-org/stlink/releases/latest or compile
 it yourself (there's a Ubuntu package `stlink-tools` which provides `st-flash`, but
