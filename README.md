@@ -1,6 +1,6 @@
 # stm32-blink
 
-This is a simple blink example written in assembly for the BluePill board (STM32F103C8T6).
+This is a simple blink example written in assembly for the Blue Pill board (`STM32F103C8T6`).
 
 ## Build
 
@@ -15,9 +15,9 @@ You'll need the `arm-none-eabi` toolchain installed. For Ubuntu:
 ## Run
 
 To upload the program to the board, you need `st-flash`. The Ubuntu
-package `stlink-tools` provides one that is too old and doesn't work
-with the STM32F103C8T6, so you'll need to compile the one from
-`https://github.com/stlink-org/stlink`:
+package `stlink-tools` provides one that is too old and doesn't seem to
+work with the `STM32F103C8T6`, so you'll need to compile the one from
+https://github.com/stlink-org/stlink:
 
     git clone https://github.com/stlink-org/stlink
     cd stlink
